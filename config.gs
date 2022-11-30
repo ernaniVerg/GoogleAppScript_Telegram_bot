@@ -1,8 +1,9 @@
 // Configure webhook mode for Telegram bot's
-function config(){
 
-  var botKey = "BOTKEY";
-  var script_url = "SCRIPT_URL";
+function config(token,url_script){
+
+  var botKey = token;
+  var script_url = url_script;
   var telegram_url = "https://api.telegram.org/"+botKey+"/setWebhook";
 
   var headers = {
