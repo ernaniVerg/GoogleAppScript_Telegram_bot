@@ -4,7 +4,7 @@ function config(token,url_script){
 
   var botKey = token;
   var script_url = url_script;
-  var telegram_url = "https://api.telegram.org/"+botKey+"/setWebhook";
+  var telegram_url = "https://api.telegram.org/bot"+botKey+"/setWebhook";
 
   var headers = {
         'Content-Type': 'application/json',
