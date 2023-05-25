@@ -1,6 +1,6 @@
-## AppScript_Telegram_bot
+# AppScript_Telegram_bot
 ---
-#####Descripition: A simple and free telegram chat bot service with google script
+##### Descripition: A simple and free telegram chat bot service with google script
 ---
 ### Required:
 >**Google** account 
@@ -46,14 +46,15 @@
 
 1. In script replace (in quotes) the term _TOKEN_ with the **TOKEN** generated in previous step.
 
-1. Choose a fuction "config" and press "Run" button.
+1. Choose a fuction **_config_** and press **_Run_** button.
 ### Test and modify
 
-1. In the chat with the created Bot, type /start and send.
+1. In the chat with the created Bot, type *__/start__* and send.
 
-1. Check if it returned "Hello World".
+1. Check if it returned _Hello World_.
 
-1. In the "doPost(e)" function inside the "switch" loop, you can create new "cases" by changing the value "/start" to a command starting with "/" (eg:/command1) and the value of the variable "message " insert the response text for this command.
+1. In the **`doPost(e)`** function inside the **`switch`** loop, you can create new "**cases**" by changing the value **_"/start"_** to a command starting with **"/"** 
+1. (eg:/command1) and the value of the variable "message " insert the response text for this command.
   
   
   
