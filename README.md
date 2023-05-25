@@ -54,11 +54,12 @@
 1. Check if it returned _Hello World_.
 
 1. In the **`doPost(e)`** function inside the **`switch`** loop, you can create new "**cases**" by changing the value **_"/start"_** to a command starting with **"/"** 
-1. (eg:/command1) and the value of the variable "message " insert the response text for this command.
+* (eg:/command1) and the value of the variable "message " insert the response text for this command.
   
-  
-  
+### Tasks
 
+  - [ ]   add images (screenshots)
+  - [ ]   add application
 
 
 
